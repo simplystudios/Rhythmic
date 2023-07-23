@@ -1,0 +1,17 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Rhythmic",
+  "short_name": "Rhythmic",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=rhythmic.com.anshwadhwa",
+      "id": "rhythmic.com.anshwadhwa"
+    }
+  ],
+  "prefer_related_applications": true
+}
