@@ -3,6 +3,14 @@
     "name": "Rhythmic",
     "slug": "Rhythmic",
     "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Rhythmic to access your microphone to play audio."
+        }
+      ]
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +29,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "rhythmic.com.anshwadhwa"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f44ddddc-a187-4415-bab1-a30d04de9350"
+      }
     }
   }
 }
